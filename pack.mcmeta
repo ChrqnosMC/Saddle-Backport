@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"pack_format": 76,
+    	"supported_formats": [45,76],
+		"description": "Lodestone Backport"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [45,48],
+				"directory": "overlay_45"
+			},
+			{
+				"formats": [49,76],
+				"directory": "overlay_49"
+			},
+		]
+	}
+}
